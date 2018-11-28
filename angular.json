@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-example-app": {
+    "Ativa-Investimentos": {
       "root": "",
       "projectType": "application",
       "architect": {
@@ -82,11 +82,11 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angular-example-app:build"
+            "browserTarget": "Ativa-Investimentos:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "angular-example-app:build:production",
+              "browserTarget": "Ativa-Investimentos:build:production",
               "aot": false
             }
           }
@@ -94,7 +94,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-example-app:build"
+            "browserTarget": "Ativa-Investimentos:build"
           }
         },
         "test": {
@@ -163,7 +163,7 @@
         }
       }
     },
-    "angular-example-app-e2e": {
+    "Ativa-Investimentos-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "architect": {
@@ -171,7 +171,7 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "angular-example-app:serve"
+            "devServerTarget": "Ativa-Investimentos:serve"
           }
         },
         "lint": {
@@ -226,7 +226,7 @@
       }
     }
   },
-  "defaultProject": "angular-example-app",
+  "defaultProject": "Ativa-Investimentos",
   "schematics": {
     "@schematics/angular:component": {
       "prefix": "app",
